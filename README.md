@@ -17,4 +17,6 @@
 ## Other Sources
 
 [Google Fonts](https://fonts.google.com/)  
-[Box Icons](https://boxicons.com/)
+[Box Icons](https://boxicons.com/)  
+  
+(/preview.png)
