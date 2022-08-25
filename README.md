@@ -7,7 +7,7 @@
 
 ## Credits for the Original Design
 
-[Original Desing](https://dribbble.com/shots/16603527-Homyz-Property-Landing-Page-Website)
+[Original Design](https://dribbble.com/shots/16603527-Homyz-Property-Landing-Page-Website)
 
 ## Libraries:
 
