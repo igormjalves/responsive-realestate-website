@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Imobiliária Lar Doce Lar</title>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Lar Doce Lar <i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>Imóveis</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award' ></i>
+                                <span>Valores</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class='bx bx-phone' ></i>
+                                <span>Contato</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Light/dark mode -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <a href="#" class="button nav__button">Cadastre-se</a>
+            </nav>
+        </header>
+
+        
+        <main class="main">
+            <!-- First section - Home -->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Descubra <br> O Melhor Imóvel <br> Para Você
+                        </h1>
+                        <p class="home__description">
+                            Encontre uma variedade de propriedades que combinam com você com muita facilidade.
+                            Esqueça todas as dificuldades em encontrar uma residência para chamar de lar.
+                        </p>
+
+                        <form action="" class="home__search">
+                            <i class='bx bxs-map' ></i>
+                            <input type="search" placeholder="Pesquise por localidade" class="home__search-input">
+                            <button class="button">Buscar</button>
+                        </form>
+
+                        <div class="home__value">
+                            <div class="home__value">
+                                <div>
+                                    <h1 class="home__value-number">
+                                        9K <span>+</span>
+                                    </h1>
+                                    <span class="home__value-description">
+                                        Produto <br> Premium
+                                    </span>
+                                </div>
+                                <div>
+                                    <h1 class="home__value-number">
+                                        2K <span>+</span>
+                                    </h1>
+                                    <span class="home__value-description">
+                                        Clientes <br> Satisfeitos
+                                    </span>
+                                </div>
+                                <div>
+                                    <h1 class="home__value-number">
+                                        28K <span>+</span>
+                                    </h1>
+                                    <span class="home__value-description">
+                                        Prêmios <br> Recebidos
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+
+                        <div class="home__image">
+                            <img src="assets/img/home.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Second Section - Logos -->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__image">
+                        <img src="assets/img/logo1.png" alt="">
+                    </div>
+                    <div class="logos__image">
+                        <img src="assets/img/logo2.png" alt="">
+                    </div>
+                    <div class="logos__image">
+                        <img src="assets/img/logo3.png" alt="">
+                    </div>
+                    <div class="logos__image">
+                        <img src="assets/img/logo4.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Third Section - Most Rated -->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">
+                        Sua Melhor Escolha
+                    </span>
+                    <h2 class="section__title">
+                        Os Imóveis Mais Desejados
+                    </h2>
+
+                    <div class="popular__container swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/casa1.png" alt="" class="popular__image">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span>950.000,00
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Casa de Luxo em Salvador
+                                    </h3>
+                                    <p class="popular__description">
+                                        Av. ACM 2539, Salvador-BA, Brasil 45000-000
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/casa2.png" alt="" class="popular__image">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span>1.200.000,00
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Casa de Praia de Alto Padrão
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua Santos Dumont 45, Praia do Forte-BA, Brasil 48000-000
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/casa3.png" alt="" class="popular__image">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span>1.500.000,00
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Casa de Luxo com Belo Jardim
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua Adonis Ribeiro 950, Vitoria da Conquista-BA, Brasil 42000-000
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/casa4.png" alt="" class="popular__image">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span>800.000,00
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Bela Casa em Condomínio Fechado
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua Jorge Rodrigues 20, Salvador-BA, Brasil 40000-000
+                                    </p>
+                                </div>
+                            </article>
+                            
+                        </div>
+                        <div class="swiper-button-next">
+                            <i class='bx bx-chevron-right' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-chevron-left' ></i>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+
+            <!-- Fourth section - Our Values -->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+
+                        <div class="value__image">
+                            <img src="assets/img/casa6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">Nosso Valor</span>
+                            <h2 class="section__title">
+                                O Valor que damos a Você
+                            </h2>
+                            <p class="value__description">
+                                Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você. Acreditamos que um bom lugar para se viver pode tornar sua vida melhor.
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-shield-x value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        As melhores taxas de juros do mercado
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-description">
+                                        O preço que fornecemos é o melhor para você, garantimos que não haverá alterações de preço em sua propriedade devido a vários custos inesperados que possam surgir.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-x-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Prevenção contra preços instáveis
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-description">
+                                        O preço que fornecemos é o melhor para você, garantimos que não haverá alterações de preço em sua propriedade devido a vários custos inesperados que possam surgir.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-bar-chart-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Melhores preços do mercado
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-description">
+                                        O preço que fornecemos é o melhor para você, garantimos que não haverá alterações de preço em sua propriedade devido a vários custos inesperados que possam surgir.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class='bx bxs-check-square value__accordion-icon' ></i>
+                                    <h3 class="value__accordion-title">
+                                        Segurança dos seus dados
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class='bx bxs-down-arrow' ></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <div class="value__accordion-description">
+                                        O preço que fornecemos é o melhor para você, garantimos que não haverá alterações de preço em sua propriedade devido a vários custos inesperados que possam surgir.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fifth Section - Contacts -->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+                        <div class="contact__image">
+                            <img src="assets/img/contact.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <div class="contact__data">
+                            <span class="section__subtitle">
+                                Contate-nos
+                            </span>
+                            <h2 class="section__title">
+                                É Simples nos Contatar
+                            </h2>
+                            <p class="contact__description">
+                                Dificuldades em encontrar a casa dos seus sonhos? Precisa de ajuda na compra da primeira casa? Ou algum suporte referente a questões residenciais? Basta entrar em contato conosco.
+                            </p>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-phone-call'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Telefone
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            + 55 71 9 9999-9999
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Ligue Agora
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-message-rounded-dots' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Chat
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            + 55 71 9 9999-9999
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Iniciar Chat
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-video'></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Video Chamada
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            + 55 71 9 9999-9999
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Iniciar Chamada
+                                </button>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-envelope' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Mensagem
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            + 55 71 9 9999-9999
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button contact__card-button">
+                                    Enviar Mensagem
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sixth section - Subscribe -->
+            <section class="subscribe section">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Saiba Mais sobre a Lar Doce Lar
+                    </h1>
+                    <p class="subscribe__description">
+                        Inscreva-se e receba nossas cotações, com os melhores preços do mercado e que o ajudarão a encontrar o seu novo lar o mais rápido possível.
+                    </p>
+                    <a href="#" class="button subscribe__button">
+                        Cadastre-se
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- About -->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <i class='bx bxs-home-alt-2'></i>Lar Doce Lar
+                    </a>
+                    <p class="footer__description">
+                        Nossa Missão é fazer <br>
+                        as pessoas encontrarem o <br>
+                        melhor lugar para viver. 
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Institucional
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Quem Somos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Política de Privacidade</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Blog Imobiliário</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            A Empresa
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Como Trabalhamos?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Segurança dos Dados</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Suporte
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Central de Ajuda</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Fale Conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Siga-nos
+                        </h3>
+
+                        <ul class="footer__social">
+                            <li>
+                                <a href="#" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-facebook-square'></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-instagram' ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank" class="footer__social-link">
+                                    <i class='bx bxl-linkedin' ></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Lar Doce Lar. Todos os direitos reservados.
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Termos e Condições</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scroll Up Button -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bxs-chevrons-up' ></i>
+        </a>
+
+        <!-- Libraries -->
+        <!-- Swiper -->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <!-- Scroll Reveal -->
+        <script src="./assets/js/scrollreveal.min.js"></script>
+
+        <!-- Main -->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
