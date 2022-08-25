@@ -19,4 +19,4 @@
 [Google Fonts](https://fonts.google.com/)  
 [Box Icons](https://boxicons.com/)  
   
-(preview.png)
+![preview img](/preview.png)
